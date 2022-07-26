@@ -72,8 +72,13 @@ body {
 .card__btn {
   text-decoration: none;
   background-color: var(--color-title-btn);
-  padding: 1em 2.3em;
+  padding: 0.9em 2.1em;
   border-radius: 2em;
+  border: 2px solid var(--color-title-btn);
+}
+
+.card__btn:hover {
+  color: var(--color-title-btn);
 }
 /* Modifiers */
 
@@ -93,10 +98,51 @@ body {
   color: var(--color-sedans);
 }
 
+.btn--sedans:hover {
+  background-color: var(--color-sedans);
+}
+
 .btn--suvs {
   color: var(--color-suvs);
 }
 
+.btn--suvs:hover {
+  background-color: var(--color-suvs);
+}
+
 .btn--luxury {
   color: var(--color-luxury);
+}
+
+.btn--luxury:hover {
+  background-color: var(--color-luxury);
+}
+
+@media (min-width: 690px) {
+  .card {
+    width: 65%;
+    max-width: 1059px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10, 1fr));
+  }
+
+  .card__container {
+    width: 67%;
+  }
+
+  .tier--sedans {
+    grid-column: 1 / 2;
+  }
+
+  .tier--suvs {
+    grid-column: 2 / 3;
+  }
+
+  .tier--luxury {
+    grid-column: 3 / 4;
+  }
+
+  .card__description {
+    margin-bottom: 5.2em;
+  }
 }
