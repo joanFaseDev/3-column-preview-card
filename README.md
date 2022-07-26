@@ -11,10 +11,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## About myself
 
@@ -62,12 +59,6 @@ Users should be able to:
 
 - The importance of using naming convention in CSS and how spare containers and appropriate classes can make a project easier to manage by resuing bits of code.
 - That designing for mobile first feels way more natural, media queries are then used to add complexity to the design instead of removing it.
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
